@@ -1,39 +1,18 @@
-import React, { useRef, useMemo, useEffect } from "react";
+import React, { useRef, useMemo } from "react";
 import { Canvas, useLoader, useFrame } from "@react-three/fiber";
 import { PerspectiveCamera } from "@react-three/drei";
 import { TextureLoader, NearestFilter } from "three";
 import { BufferAttribute } from "three";
-import gsap from "gsap";
+
 const Scene = () => {
 
   let scrollY = window.scrollY;
 
-  let currSection = 0;
   const cursor = {
     x: 0,
     y: 0,
   };
 
-
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    currSection = 0
-    window.addEventListener("scroll", () => {
-      // eslint-disable-next-line react-hooks/exhaustive-deps
-      scrollY = window.scrollY;
-      const newSection = Math.round(scrollY / window.innerHeight);
-      if (newSection !== currSection) {
-        currSection = newSection;
-      gsap.to(meshOne.current.rotation, {
-          duration: 1.5,
-          ease: "power2.inOut",
-          x: "+= 2.5",
-          y: "+=2.5",
-          z:'+= 1.5'
-        });
-      }
-    });
-  },[currSection])
 
   
   window.addEventListener("mousemove", (e) => {
@@ -62,6 +41,7 @@ const Scene = () => {
   }, [count]);
 
   useFrame(({ clock }) => {
+    scrollY = window.scrollY;
     const deltaTime = clock.getElapsedTime() - prevTime;
     prevTime = clock.getElapsedTime();
     camera.current.position.y = (-scrollY / window.innerHeight) * 4;
