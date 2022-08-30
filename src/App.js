@@ -1,14 +1,18 @@
 import Background from "./components/Background";
 import Name from "./components/Name";
-import Contact from "./components/Contact";
 import Projects from "./components/Projects";
+import NavBar from "./components/Navbar";
+import About from "./components/About";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Background/>
-      <Name/>
-      <Projects/>
-      <Contact/>
+      <Background />
+      <Name />
+      <NavBar />
+      <About />
+      <Projects />
+      <Footer />
     </>
   );
 }
