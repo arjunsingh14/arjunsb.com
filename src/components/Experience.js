@@ -8,7 +8,7 @@ export default function Experience() {
       </header>
       <div className="mx-auto row col-4 py-5">
         <img
-          className='col-3 rounded-circle mx-auto'
+          className='col-sm-12 col-md-4 rounded-circle mx-auto'
           src="./theScore.png"
           alt="theScore"
         />
