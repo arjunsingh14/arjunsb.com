@@ -24,7 +24,7 @@ const Footer = () => {
       </div>
       <hr style={{ color: "white" }} />
       <div className="container text-center text-light p-2">
-        <p>Arjun Bhandal &copy; 2022</p>
+        <p>Arjun Bhandal &copy; 2023</p>
       </div>
     </footer>
   );

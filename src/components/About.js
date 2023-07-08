@@ -5,8 +5,13 @@ const About = () => {
       id="about"
     >
       <div className="row">
-        <div className="col-sm-6 d-flex justify-content-center pt-4 pb-5">
-          <img id="self" src="./me.jpg" className="img-thumbnail" alt="me" />
+        <div className="col-sm-5 d-flex justify-content-center pt-5 pb-5">
+          <img
+            id="self"
+            src="./me.jpg"
+            className="img-thumbnail h-100"
+            alt="me"
+          />
         </div>
         <div className="col-sm-6 p-4 font-monospace">
           <h2
@@ -15,15 +20,15 @@ const About = () => {
             About me
           </h2>
           <p className="pt-4">
-            <strong id="first-name">Hi, my name is Arjun.</strong> I'm an
-            incoming second year Computer Science undergraduate living in
+            <strong id="first-name">Hi, my name is Arjun.</strong> I'm a third year
+             year Computer Science undergraduate QA Analyst Intern @ theScore living in
             Toronto.
           </p>
           <p>
-            In my free time, I'll be hunting down cool places to eat at, working
-            out, hanging out with friends, playing video games or dipping my
-            toes into any creative outlet that interests me (right now it's
-            Blender.)
+            During my free time, you can catch me at the gym. Weightlifting
+            helps me stay fit and motivated, while coding allows me to be
+            creative and solve problems. When the lake isn't frozen, I love
+            kayaking to relax and enjoy nature.
           </p>
           <p>
             Feel free to take take a look at my work or get into{" "}
@@ -37,7 +42,7 @@ const About = () => {
             </span>{" "}
           </p>
           <div className="row d-flex align-item-center">
-            <a href="https://drive.google.com/file/d/1MhtObsBwhtgDRiLEmRWuSa17M9dhxyPE/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1YlFc1szT-bY_YOLIjHYBjVi33oJIcB5-/view">
               <button
                 className="btn btn-primary"
                 style={{

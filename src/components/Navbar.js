@@ -45,7 +45,7 @@ const NavBar = () => {
             <li className="nav-item">
               <a
                 className="nav-link"
-                href="https://drive.google.com/file/d/1MhtObsBwhtgDRiLEmRWuSa17M9dhxyPE/view?usp=sharing"
+                href="https://drive.google.com/file/d/1YlFc1szT-bY_YOLIjHYBjVi33oJIcB5-/view?usp=sharing"
               >
                 Resume
               </a>
