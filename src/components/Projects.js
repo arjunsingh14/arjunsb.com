@@ -30,10 +30,10 @@ const Projects = () => {
         <div className="col-sm-4">
           <ProjectCard
             isPicture={true}
-            imgLink={'./java.jpeg'}
-            name="ECommerce User interface"
-            description="An ecommerce system written in Java with a emphasis on Object Oriented Programming. Created as the final project for the academic year."
-            github="https://github.com/arjunsingh14/ECommerceUserInterface-CPS209"
+            imgLink={'./botblitz.png'}
+            name="Bot Blitz"
+            description="A shooter mini game written in C++ with the help of OpenGL"
+            github="https://github.com/arjunsingh14/botblitz"
           />
         </div>
       </div>

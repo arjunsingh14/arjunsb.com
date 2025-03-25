@@ -42,7 +42,7 @@ const About = () => {
             </span>{" "}
           </p>
           <div className="row d-flex align-item-center">
-            <a href="https://drive.google.com/file/d/1YlFc1szT-bY_YOLIjHYBjVi33oJIcB5-/view">
+            <a href="https://drive.google.com/file/d/1Js-zMfcgukaHPw2rGSr3jw8Ko9XYwcXn/view?usp=sharing">
               <button
                 className="btn btn-primary"
                 style={{
